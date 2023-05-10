@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  background: rgb(240, 240, 240);
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.5s;
+  display: block;
+  color: black;
+  letter-spacing: 2px;
+}
+a:hover {
+  transform: scale(1.1);
+  transform: translateY(10);
+  color: rgb(255, 205, 136);
+}
+
+.ls-2 {
+  letter-spacing: 2px;
+}
+
+.ls-5 {
+  letter-spacing: 5px !important;
+}
+
+.d-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.title {
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.describe {
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 36px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.profile h1 {
+  width: 80%;
+  padding-left: 10px;
+  font-size: 70px;
+  font-weight: 400;
+  letter-spacing: 20px;
+  margin: auto;
+  position: relative;
+  margin-bottom: 30px;
+}
+.profile h1::after {
+  content: "";
+  width: 70%;
+  height: 2px;
+  background: gray;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  margin: auto;
+}
+.profile h1 span {
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 20px;
+  margin-left: 20px;
+}
+.profile img {
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+}
+.profile h6 {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 10px;
+  margin-top: 50px;
+}/*# sourceMappingURL=index.css.map */
