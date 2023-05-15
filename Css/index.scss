@@ -91,3 +91,9 @@ a {
         margin-top: 50px;
     }
 }
+
+.btn {
+    &:hover a {
+        color: white !important;
+    }
+}

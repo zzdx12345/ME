@@ -88,4 +88,8 @@ a:hover {
   font-weight: 200;
   letter-spacing: 10px;
   margin-top: 50px;
+}
+
+.btn:hover a {
+  color: white !important;
 }/*# sourceMappingURL=index.css.map */
