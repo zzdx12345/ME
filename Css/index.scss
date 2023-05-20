@@ -97,3 +97,54 @@ a {
         color: white !important;
     }
 }
+
+@media screen and (max-width: 576px) {
+    .profile {
+        h1 {
+            font-size: 36px;
+                span {
+                    font-size: 26px;
+                    margin: 0;
+                }
+        }
+        img {
+            width: 40%;
+            border-radius: 50%;
+            border: 5px solid rgb(255, 255, 255);
+        }
+        h6 {
+            font-size: 20px;
+            font-weight: 200;
+            letter-spacing: 10px;
+            margin-top: 50px;
+        }
+    }
+    .describe {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .title {
+        font-size: 28px;
+    }
+    br {
+        display: none;
+    }
+    .fs-1 {
+        font-size: 24px !important;
+    }
+    .fs-2 {
+        font-size: 20px !important;
+    }
+    .fs-3 {
+        font-size: 18px !important;
+    }
+    .fs-4 {
+        font-size: 16px !important;
+    }
+    .fs-5 {
+        font-size: 14px !important;
+    }
+    .fs-6 {
+        font-size: 14px !important;
+    }
+}
